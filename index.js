@@ -15,7 +15,7 @@ document.addEventListener('contextmenu', function(event) {
 	var  gif=document.getElementById('gif');
 	//gif.src="./imgs/hj.gif";
 	img = new Image();
-	img.src="./imgs/zt2.gif";
+	img.src="./imgs/ZT2.gif";
 	img.onload = function() {
 		const width = img.naturalWidth;
 		const height = img.naturalHeight;
@@ -53,7 +53,7 @@ document.addEventListener('contextmenu', function(event) {
 				if(elem.innerText.indexOf("原理")>-1){
 						//gif=document.getElementById('gif');
 						gif.src="";
-						gif.src="./imgs/zt2.gif";
+						gif.src="./imgs/ZT2.gif";
 				}
 			}else{
 				if(celem.innerText.indexOf("原理")>-1){
